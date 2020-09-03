@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/thomaszomero/CLionProjects/dataStructures/ArrayStack.h
+iostream
+-
+string
+-
+
+/Users/thomaszomero/CLionProjects/dataStructures/main.cpp
+iostream
+-
+ArrayStack.h
+/Users/thomaszomero/CLionProjects/dataStructures/ArrayStack.h
+
